@@ -20,9 +20,9 @@ $pageData = BaseController::switchLayouts();
 <body>
 <div class="container">
     <?php if(!isset($_SESSION['login'])): ?>
-        <a href="/auth.php" class="btn btn-primary">Login</a>
+        <a href="/auth.php" class="btn btn-primary">Войти</a>
     <?php else: ?>
-        <a href="/logout.php" class="btn btn-primary">Logout</a>
+        <a href="/logout.php" class="btn btn-primary">Выйти</a>
     <?php endif; ?>
     <div class="row">
         <div class="col-8">
@@ -59,7 +59,7 @@ $pageData = BaseController::switchLayouts();
             <?php endif;?>
         </div>
     </div>
-    <a href="/task.php" class="btn btn-primary">Create tasks</a>
+    <a href="/task.php" class="btn btn-primary">Создать задачу</a>
 </div>
 </body>
 <script src="//code.jquery.com/jquery-3.3.1.js" defer ></script>
