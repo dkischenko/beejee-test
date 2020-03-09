@@ -16,5 +16,6 @@ return "<p><strong>Войти</strong></p>
         <input name='password' class='form-control' type='password' placeholder='Пароль' required>
     </div>
     <input type='submit' class='btn btn-primary' value='Логин'></input>
+    <a href='/' class='btn'>Отменить</a>    
 </form>
 ";

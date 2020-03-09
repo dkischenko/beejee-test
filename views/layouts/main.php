@@ -27,7 +27,7 @@ $pageData = BaseController::switchLayouts();
     <div class="row">
         <div class="col-8">
             <?php if ($tasks = TaskController::getAllTasks()):?>
-                <p><strong>Tasks</strong></p>
+                <p><strong>Задачи</strong></p>
                 <table id="tasks" class="display table" style="width:100%">
                     <thead>
                         <tr>
